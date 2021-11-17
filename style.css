@@ -1,0 +1,95 @@
+body {
+  margin: 0%;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6;
+  text-align: justify;
+  background-color: #009879;
+}
+
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+
+section .grafico {
+  float: left;
+}
+
+
+#line-example-3 {
+  height: 200px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+}
+
+section h1 {
+  padding-bottom: 16px;
+  display: block;
+  font-size: 1.8rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+section p {
+  text-align: justify;
+}
+
+#grafico{
+    width: 550px;
+    height: 300px;
+    float: left;
+}
+
+#conselho {
+  float: right;
+  margin: 0 0 0 15px;
+  height: 240px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+section {
+  margin: 0;
+  padding: 16px;
+  text-justify: inter-word;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
